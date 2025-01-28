@@ -1,31 +1,34 @@
 # File-MD
+Why FILE-MD?
 
-1 ABOUT FILE-MD
-1.1 WHAT IS FILE-MD?
-FILE-MD is a directory and file scanner capable of using multiple plugins to perform additional analysis.
-The B9-Plugin uses the B9 library for initial analysis results. The B9 Library is an advanced static file
-analyzer that uses specialized tests, Yara rules and machine learning models to determine the degree of
-malice. Results are provided in JSON, the B9 plugin produces tailored reports in CSV. FILE-MD is a
-Windows utility for auditors, blue teamers, incident responders, malware analysts, threat hunters, and
-forensics professionals. The goal of FILE-MD is to fill a gap in Windows static file Malicious Discovery
-(MD) for small, medium, large businesses and even enterprise users to provide a tool that is faster than
-traditional techniques to improve and refine their information security programs.
-FILE-MD with all its features is a multi-tool for blue team defenders and incident responders replacing
-many individual tools into one easy to use standalone utility.
-With FILE-MD your team will be able to:
-• Scan individual files, a directory and/or sub-directories of files, or even a file share of files for
-signs of files malicious crafting,
-• Scans binaries and Office documents as well as PDF’s
-• Create a summary and detailed report of static file analysis for one to thousands of files
-• Create a printable report of strings and output details for each file
-• Use a plug-in architecture to add additional features
+FILE-MD was designed for Windows based systems to statically analyze files for signs of malicious crafting.  FILE-MD was also designed to evaluate a single file, directory of files, a share of files, or repository of files for signs of malicious crafting faster than the standard methods many professionals use today.  
 
-2 GETTING STARTED
-FILE-MD is designed for Microsoft Windows© based systems. FILE-MD runs on the following operating
-systems:
-• Windows 7 workstation or later 64bit
-• Windows 2008 Server or later 64bit
-2.2 HOW TO GET HELP OR ASK QUESTIONS ABOUT LOG-MD PROFESSIONAL
-FILE-MD hosts a Slack Channel community named “log-md.slack.com”. FILE-MD users will be asked if
-they would like to join when the FILE-MD order is fulfilled by an email from us. If you want to be added
-to the Slack channel, please email us with the email(s) you want.
+FILE-MD replaces or augments several security and forensic tools, combing many features professionals rely on, into one easy to use utility.  FILE-MD was designed to speed up the investigation of a suspect system, validate it is good and to speed up evaluating files to discover if they are malware in a lab environment or running system.
+
+Malicious Discovery is a challenge for many and the Mean Time to Detection (MTTD) from a compromise or worse yet, a breach is still close to a year for most companies.  FILE-MD is designed to be a cost effective utility to help small, medium, large and enterprise businesses improve their Malicious Discovery with a tool that can be run manually or distributed across the environment.
+
+A NEW TOOL TO HELP YOU WITH THE FIGHT AGAINST INFECTIONS... MALWARE INFECTIONS.
+
+The File and Malicious Discovery tool (File-MD) is designed to assist Information Security and IT Professionals discover the artifacts needed to understand if a Windows system has a malware infection.  
+
+USE CASES:
+
+There are multiple use cases for File-MD, here are some to consider:
+
+Malware Analysis Lab - Use File-MD to analyze files for signs of malicious crafting:
+
+Shows if a file is “Good”
+
+Shows if a file is “Suspicious” needing a closer look
+
+Shows if a file is “Malicious” needing more analysis
+
+Optional strings output option to investigate readable strings
+
+Optional detailed report of each file
+
+        2.  Investigate a suspect system - File-MD can be used to scan a user folder such as; “C:\Users“ up to 9 levels deep to look for mal-crafted files
+
+        3.  Incident Response - File-MD can be deployed to scan target file or folders as a part of the response to a Security Incident
+
+        4.  File shares can be scanned such as Home or Public directories for signs of stored mal-crafted files.
